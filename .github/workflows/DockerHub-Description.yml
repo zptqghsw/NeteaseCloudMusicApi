@@ -18,6 +18,6 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        repository: binaryify/netease_cloud_music_api
+        repository: zptqghsw/netease_cloud_music_api
         short-description: ${{ github.event.repository.description }}
         readme-filepath: ./README.MD
